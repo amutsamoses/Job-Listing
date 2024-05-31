@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@100..900&family=Josefin+Sans&family=League+Spartan:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #f5f5f5;
+}
+
+body {
+  font-family: "Spartan", sans-serif;
+  background-color: #f0f3f5;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Spartan", sans-serif;
+  background-color: #f0f3f5;
+  margin: 0;
+  padding: 0;
+}
+
+.job-listings {
+  max-width: 1000px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.job-item {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.company {
+  font-size: 1.2em;
+  color: hsl(180, 29%, 50%);
+}
+
+.new-featured {
+  display: flex;
+  gap: 10px;
+}
+
+.new,
+.featured {
+  background-color: hsl(180, 29%, 50%);
+  color: white;
+  border-radius: 12px;
+  padding: 5px 10px;
+  font-size: 0.8em;
+}
+
+.new {
+  background-color: hsl(180, 29%, 50%);
+}
+
+.featured {
+  background-color: hsl(180, 14%, 20%);
+}
+
+.position {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: hsl(180, 14%, 20%);
+}
+
+.details {
+  display: flex;
+  gap: 10px;
+  font-size: 0.9em;
+  color: hsl(180, 8%, 52%);
+}
+
+.tags {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.tags span {
+  background-color: hsl(180, 31%, 95%);
+  color: hsl(180, 29%, 50%);
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.9em;
+}
+
+.attribution {
+  margin-top: 50px;
+  font-size: 0.8em;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
