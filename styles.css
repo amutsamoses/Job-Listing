@@ -1,129 +1,4 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@100..900&family=Josefin+Sans&family=League+Spartan:wght@100..900&display=swap");
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: "Inter", sans-serif;
-  font-family: "Spartan", sans-serif;
-  background-color: #f0f3f5;
-  margin: 0;
-  padding: 0;
-}
-
-
-
-.job-listings {
-  max-width: 1100px;
-  margin: 50px auto;
-  flex-grow: 1;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-.job-item {
-  background-color: white;
-  padding: 20px; 
-  border-radius: 5px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  gap: 10px; 
-  height: 200px; 
-  border-left: 5px solid hsl(180, 29%, 50%);
-  overflow: hidden; 
-}
-
-.image {
-  margin-right: 20px; 
-  flex: 0 0 100px;
-}
-
-.image img {
-  display: block;
-  margin: 0 auto; 
-  padding-top: 20px; 
-}
-
-.job-item .company {
-  font-size: 1.2em;
-  color: hsl(180, 29%, 50%);
-  flex: 1 1 100%;
-  font-weight: 700;
-}
-
-.job-item .new-featured {
-  display: flex;
-  gap: 10px;
-  padding-top: 10px;
-}
-
-.job-item .new,
-.job-item .featured {
-  background-color: hsl(180, 29%, 50%);
-  color: white;
-  border-radius: 12px;
-  padding: 5px 10px;
-  font-size: 0.8em;
-}
-
-.job-item .new {
-  background-color: hsl(180, 29%, 50%);
-}
-
-.job-item .featured {
-  background-color: hsl(180, 14%, 20%);
-}
-
-.job-item .position {
-  font-size: 1.2em;
-  font-weight: bold;
-  color: hsl(180, 14%, 20%);
-  flex: 1 1 100%;
-  margin-left: 116px;
-}
-
-.job-item .details {
-  display: flex;
-  gap: 10px;
-  margin-left: 116px;
-  font-size: 0.9em;
-  color: hsl(180, 8%, 52%);
-  flex: 1 1 100%;
-}
-
-.job-item .tags {
-  display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
-  flex: 1 1 100%;
-  margin-left: 35rem;
-  justify-content: flex-end;
-  font-weight: 600;
-}
-
-.job-item .tags span {
-  background-color: hsl(180, 31%, 95%);
-  color: hsl(180, 29%, 50%);
-  padding: 5px 10px;
-  border-radius: 5px;
-  font-size: 0.9em;
-}
-
-.attribution {
-  margin-top: 50px;
-  font-size: 0.8em;
-  text-align: center;
-}
-
-.attribution a {
-  color: hsl(228, 45%, 44%);
-} */
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@100..900&family=Josefin+Sans&family=League+Spartan:wght@100..900&display=swap");
 
 body {
   font-family: "Spartan", sans-serif;
@@ -132,7 +7,116 @@ body {
   padding: 0;
 }
 
+main .topbar {
+  background-color: var(--desaturated-dark-cyan);
+  height: 10.4em;
+  margin-bottom: 3.4em;
+}
+
+main .topbar .topbar-background {
+  object-fit: cover;
+  object-position: center;
+}
+
+/* main .filter-bar {
+  position: relative;
+  display: none;
+  flex-wrap: wrap;
+  margin-top: -5.6em;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 2.5em;
+  gap: 1em 2.6em;
+  width: 22em;
+  background-color: white;
+  border-radius: 5px;
+  padding: 1em;
+} */
+
+/* main .filter-bar .filter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--desaturated-dark-cyan);
+  background-color: var(--light-grayish-cyan-background);
+  font-weight: 700;
+  padding: 0.5em 0.7em 0.3em 0.5em;
+  height: 2em;
+  border-radius: 4px;
+  transition: all 0.2s;
+} */
+
+/* main .filter-bar .filter-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  color: var(--desaturated-dark-cyan);
+  background-color: var(--light-grayish-cyan-background);
+  padding: 0.6em 1.4em 0.5em 0.5em;
+  height: 2.05em;
+  border-radius: 4px;
+  transition: all 0.2s;
+} */
+
+main .filter-bar .filter-button .remove-icon {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  right: -1.6em;
+  top: 0;
+  background-color: var(--desaturated-dark-cyan);
+  padding: 0.565em;
+  border-radius: 0 4px 4px 0;
+  transition: all 0.2s;
+}
+
+main .filter-bar .filter-button .remove-icon:hover {
+  background-color: black;
+}
+
+/* main .filter-bar .clear {
+  position: absolute;
+  display: none;
+  right: 1em;
+  top: 50%;
+  transform: translateY(-50%);
+  vertical-align: center;
+  border: none;
+  background-color: white;
+  font-size: 0.86rem;
+  font-weight: 700;
+  color: var(--very-dark-grayish-cyan);
+  width: 4em;
+  cursor: pointer;
+  transition: all 0.2s;
+} */
+
+main .filter-bar .clear:hover {
+  color: var(--desaturated-dark-cyan);
+}
+
+main .filter-bar .clear::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 80%;
+  width: 0;
+  height: 1.5px;
+  background-color: var(--desaturated-dark-cyan);
+  transition: all 0.3s ease-in-out;
+}
+
+main .filter-bar .clear:hover::before {
+  width: 70%;
+  left: 0.2em;
+}
+
 .job-listings {
+  padding: auto;
   max-width: 1100px;
   margin: 50px auto;
   display: flex;
