@@ -18,7 +18,7 @@ main .topbar .topbar-background {
   object-position: center;
 }
 
-/* main .filter-bar {
+main .filter-bar {
   position: relative;
   display: none;
   flex-wrap: wrap;
@@ -31,9 +31,9 @@ main .topbar .topbar-background {
   background-color: white;
   border-radius: 5px;
   padding: 1em;
-} */
+}
 
-/* main .filter-bar .filter {
+main .filter-bar .filter {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -44,9 +44,9 @@ main .topbar .topbar-background {
   height: 2em;
   border-radius: 4px;
   transition: all 0.2s;
-} */
+}
 
-/* main .filter-bar .filter-button {
+main .filter-bar .filter-button {
   position: relative;
   display: flex;
   align-items: center;
@@ -58,7 +58,7 @@ main .topbar .topbar-background {
   height: 2.05em;
   border-radius: 4px;
   transition: all 0.2s;
-} */
+}
 
 main .filter-bar .filter-button .remove-icon {
   position: absolute;
@@ -78,7 +78,7 @@ main .filter-bar .filter-button .remove-icon:hover {
   background-color: black;
 }
 
-/* main .filter-bar .clear {
+main .filter-bar .clear {
   position: absolute;
   display: none;
   right: 1em;
@@ -93,7 +93,7 @@ main .filter-bar .filter-button .remove-icon:hover {
   width: 4em;
   cursor: pointer;
   transition: all 0.2s;
-} */
+}
 
 main .filter-bar .clear:hover {
   color: var(--desaturated-dark-cyan);
